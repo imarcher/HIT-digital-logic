@@ -1,0 +1,38 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/shuziluoji/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto e88580d8f39d400fbd95169dc7b9b9d2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot text_behav xil_defaultlib.text xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bijiao
+Compiling module xil_defaultlib.design_1_bijiao_0_0
+Compiling module xil_defaultlib.check_g
+Compiling module xil_defaultlib.design_1_check_g_0_0
+Compiling module xil_defaultlib.check_r
+Compiling module xil_defaultlib.design_1_check_r_0_0
+Compiling module xil_defaultlib.da
+Compiling module xil_defaultlib.design_1_da_0_0
+Compiling module xil_defaultlib.design_1_da_0_1
+Compiling module xil_defaultlib.erxuanyi
+Compiling module xil_defaultlib.design_1_erxuanyi_0_0
+Compiling module xil_defaultlib.huofei
+Compiling module xil_defaultlib.design_1_huofei_0_0
+Compiling module xil_defaultlib.design_1_huofei_0_1
+Compiling module xil_defaultlib.jicun
+Compiling module xil_defaultlib.design_1_jicun_0_0
+Compiling module xil_defaultlib.jishi
+Compiling module xil_defaultlib.design_1_jishi_0_0
+Compiling module xil_defaultlib.jishu
+Compiling module xil_defaultlib.design_1_jishu_0_0
+Compiling module xil_defaultlib.jishum
+Compiling module xil_defaultlib.design_1_jishum_0_0
+Compiling module xil_defaultlib.mima
+Compiling module xil_defaultlib.design_1_mima_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.text
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot text_behav

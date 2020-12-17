@@ -1,0 +1,634 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 28 20:50:01 2019
+# Process ID: 9544
+# Current directory: D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.runs/synth_1/design_1_wrapper.vds
+# Journal file: D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/MasterH/Documents/Tencent Files/958028260/FileRecv/wanchengban/wanchengban/HIT_74chips'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/MasterH/Documents/Tencent Files/958028260/FileRecv/wanchengban/wanchengban/MY_74LS153'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/MasterH/Documents/Tencent Files/958028260/FileRecv/wanchengban/wanchengban/MY_74LS194'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tool/Xilinx/Vivado/2017.4/data/ip'.
+add_files: Time (s): cpu = 00:00:02 ; elapsed = 00:05:59 . Memory (MB): peak = 275.309 ; gain = 34.063
+Command: synth_design -top design_1_wrapper -part xc7a35tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14760 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 394.121 ; gain = 105.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'design_1' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-638] synthesizing module 'design_1_bijiao_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_bijiao_0_0/synth/design_1_bijiao_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bijiao' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/bijiao.v:22]
+INFO: [Synth 8-256] done synthesizing module 'bijiao' (1#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/bijiao.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_bijiao_0_0' (2#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_bijiao_0_0/synth/design_1_bijiao_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_check_g_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_check_g_0_0/synth/design_1_check_g_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'check_g' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/check_g.v:23]
+INFO: [Synth 8-256] done synthesizing module 'check_g' (3#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/check_g.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_check_g_0_0' (4#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_check_g_0_0/synth/design_1_check_g_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_check_r_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_check_r_0_0/synth/design_1_check_r_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'check_r' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/check_r.v:22]
+INFO: [Synth 8-256] done synthesizing module 'check_r' (5#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/check_r.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_check_r_0_0' (6#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_check_r_0_0/synth/design_1_check_r_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_da_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_da_0_0/synth/design_1_da_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'da' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/da.v:22]
+INFO: [Synth 8-256] done synthesizing module 'da' (7#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/da.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_da_0_0' (8#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_da_0_0/synth/design_1_da_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_da_0_1' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_da_0_1/synth/design_1_da_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_da_0_1' (9#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_da_0_1/synth/design_1_da_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_erxuanyi_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_erxuanyi_0_0/synth/design_1_erxuanyi_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'erxuanyi' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:22]
+INFO: [Synth 8-256] done synthesizing module 'erxuanyi' (10#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_erxuanyi_0_0' (11#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_erxuanyi_0_0/synth/design_1_erxuanyi_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_huofei_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_huofei_0_0/synth/design_1_huofei_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'huofei' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/huofei.v:22]
+INFO: [Synth 8-256] done synthesizing module 'huofei' (12#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/huofei.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_huofei_0_0' (13#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_huofei_0_0/synth/design_1_huofei_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_huofei_0_1' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_huofei_0_1/synth/design_1_huofei_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_huofei_0_1' (14#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_huofei_0_1/synth/design_1_huofei_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_jicun_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jicun_0_0/synth/design_1_jicun_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'jicun' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jicun.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jicun.v:50]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jicun.v:75]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jicun.v:100]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jicun.v:126]
+INFO: [Synth 8-256] done synthesizing module 'jicun' (15#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jicun.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_jicun_0_0' (16#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jicun_0_0/synth/design_1_jicun_0_0.v:57]
+WARNING: [Synth 8-689] width (2) of port connection 'jishu' does not match port width (4) of module 'design_1_jicun_0_0' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/synth/design_1.v:396]
+INFO: [Synth 8-638] synthesizing module 'design_1_jishi_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jishi_0_0/synth/design_1_jishi_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'jishi' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishi.v:2]
+INFO: [Synth 8-256] done synthesizing module 'jishi' (17#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishi.v:2]
+INFO: [Synth 8-256] done synthesizing module 'design_1_jishi_0_0' (18#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jishi_0_0/synth/design_1_jishi_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_jishu_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jishu_0_0/synth/design_1_jishu_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'jishu' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishu.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishu.v:48]
+INFO: [Synth 8-256] done synthesizing module 'jishu' (19#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishu.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_jishu_0_0' (20#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jishu_0_0/synth/design_1_jishu_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_jishum_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jishum_0_0/synth/design_1_jishum_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'jishum' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishum.v:22]
+INFO: [Synth 8-256] done synthesizing module 'jishum' (21#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishum.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_jishum_0_0' (22#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_jishum_0_0/synth/design_1_jishum_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_led_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_led_0_0/synth/design_1_led_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'led' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/led.v:23]
+INFO: [Synth 8-256] done synthesizing module 'led' (23#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/led.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_led_0_0' (24#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_led_0_0/synth/design_1_led_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_mima_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_mima_0_0/synth/design_1_mima_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'mima' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/mima.v:21]
+INFO: [Synth 8-256] done synthesizing module 'mima' (25#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/mima.v:21]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mima_0_0' (26#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_mima_0_0/synth/design_1_mima_0_0.v:57]
+WARNING: [Synth 8-689] width (2) of port connection 'jishu' does not match port width (4) of module 'design_1_mima_0_0' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/synth/design_1.v:476]
+INFO: [Synth 8-638] synthesizing module 'design_1_pianxuan1_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_pianxuan1_0_0/synth/design_1_pianxuan1_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'pianxuan1' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan1.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan1.v:60]
+INFO: [Synth 8-256] done synthesizing module 'pianxuan1' (27#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan1.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_pianxuan1_0_0' (28#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_pianxuan1_0_0/synth/design_1_pianxuan1_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_pianxuan2_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_pianxuan2_0_0/synth/design_1_pianxuan2_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'pianxuan2' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan2.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan2.v:53]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan2.v:75]
+INFO: [Synth 8-256] done synthesizing module 'pianxuan2' (29#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan2.v:22]
+INFO: [Synth 8-256] done synthesizing module 'design_1_pianxuan2_0_0' (30#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_pianxuan2_0_0/synth/design_1_pianxuan2_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_0_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_0/synth/design_1_xiaodou_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xiaodou' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/xiaodou.v:2]
+	Parameter SAMPLE_TIME bound to: 20000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xiaodou' (31#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/xiaodou.v:2]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_0_0' (32#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_0/synth/design_1_xiaodou_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_0_1' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_1/synth/design_1_xiaodou_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_0_1' (33#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_1/synth/design_1_xiaodou_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_0_2' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_2/synth/design_1_xiaodou_0_2.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_0_2' (34#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_2/synth/design_1_xiaodou_0_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_2_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_2_0/synth/design_1_xiaodou_2_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_2_0' (35#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_2_0/synth/design_1_xiaodou_2_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_2_1' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_2_1/synth/design_1_xiaodou_2_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_2_1' (36#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_2_1/synth/design_1_xiaodou_2_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_4_0' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_4_0/synth/design_1_xiaodou_4_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_4_0' (37#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_4_0/synth/design_1_xiaodou_4_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_0_3' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_3/synth/design_1_xiaodou_0_3.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_0_3' (38#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_3/synth/design_1_xiaodou_0_3.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_0_4' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_4/synth/design_1_xiaodou_0_4.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_0_4' (39#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_4/synth/design_1_xiaodou_0_4.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_0_5' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_5/synth/design_1_xiaodou_0_5.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_0_5' (40#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_5/synth/design_1_xiaodou_0_5.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_xiaodou_0_6' [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_6/synth/design_1_xiaodou_0_6.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xiaodou_0_6' (41#1) [d:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/ip/design_1_xiaodou_0_6/synth/design_1_xiaodou_0_6.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (42#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (43#1) [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+WARNING: [Synth 8-3331] design jishu has unconnected port green
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 448.000 ; gain = 159.383
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 448.000 ; gain = 159.383
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/constrs_1/new/yes.xdc]
+Finished Parsing XDC File [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/constrs_1/new/yes.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/constrs_1/new/yes.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 783.219 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 783.219 ; gain = 494.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 783.219 ; gain = 494.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/bijiao_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/check_g_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/check_r_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/da_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/da_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/erxuanyi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/huofei_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/huofei_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/jicun_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/jishi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/jishu_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/jishum_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/led_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mima_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/pianxuan1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/pianxuan2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xiaodou_9. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 783.219 ; gain = 494.602
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "kaishi" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishi.v:23]
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishi.v:36]
+INFO: [Synth 8-4471] merging register 'shu04_reg' into 'shu01_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishu.v:41]
+WARNING: [Synth 8-6014] Unused sequential element shu04_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishu.v:41]
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/led.v:44]
+INFO: [Synth 8-5544] ROM "n1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "num0_1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan1.v:43]
+INFO: [Synth 8-5544] ROM "num0_1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan2.v:39]
+INFO: [Synth 8-5545] ROM "count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'n1_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'n2_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'n3_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'n4_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'n5_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'n6_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'n7_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'n8_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:50]
+WARNING: [Synth 8-327] inferring latch for variable 'n9_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:51]
+WARNING: [Synth 8-327] inferring latch for variable 'n10_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:52]
+WARNING: [Synth 8-327] inferring latch for variable 'm1_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:55]
+WARNING: [Synth 8-327] inferring latch for variable 'm2_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'm3_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:57]
+WARNING: [Synth 8-327] inferring latch for variable 'm4_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:58]
+WARNING: [Synth 8-327] inferring latch for variable 'm5_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:59]
+WARNING: [Synth 8-327] inferring latch for variable 'm6_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:60]
+WARNING: [Synth 8-327] inferring latch for variable 'm7_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'm8_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'm9_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:63]
+WARNING: [Synth 8-327] inferring latch for variable 'm10_reg' [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/erxuanyi.v:64]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 783.219 ; gain = 494.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 20    
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               33 Bit    Registers := 20    
+	                4 Bit    Registers := 13    
+	                1 Bit    Registers := 76    
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 20    
+	  10 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 69    
+	   3 Input      1 Bit        Muxes := 18    
+	   4 Input      1 Bit        Muxes := 9     
+	  11 Input      1 Bit        Muxes := 9     
+	  15 Input      1 Bit        Muxes := 4     
+	  12 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module bijiao 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module da 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  10 Input      4 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+Module jicun 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 29    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 4     
+	  11 Input      1 Bit        Muxes := 9     
+	  15 Input      1 Bit        Muxes := 4     
+	  12 Input      1 Bit        Muxes := 1     
+Module jishi 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 33    
+	   4 Input      1 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module jishu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module jishum 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module led 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 9     
+Module mima 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module pianxuan1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module pianxuan2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	   3 Input      1 Bit        Muxes := 15    
+Module xiaodou 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
++---Registers : 
+	               33 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element inst/cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishi.v:23]
+WARNING: [Synth 8-6014] Unused sequential element inst/count_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/jishi.v:36]
+WARNING: [Synth 8-6014] Unused sequential element inst/cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/led.v:44]
+WARNING: [Synth 8-6014] Unused sequential element inst/cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan1.v:43]
+WARNING: [Synth 8-6014] Unused sequential element inst/cnt_reg was removed.  [D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/pianxuan2.v:39]
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design design_1_jishu_0_0 has unconnected port green
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (design_1_i/jicun_0/\inst/shu32_reg )
+INFO: [Synth 8-3332] Sequential element (inst/shu32_reg) is unused and will be removed from module design_1_jicun_0_0.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (design_1_i/jishu_0/\inst/shu02_reg )
+INFO: [Synth 8-3332] Sequential element (inst/shu02_reg) is unused and will be removed from module design_1_jishu_0_0.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_1_i/pianxuan2_0/\inst/number2_reg[1] )
+INFO: [Synth 8-3332] Sequential element (inst/number2_reg[1]) is unused and will be removed from module design_1_pianxuan2_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 783.219 ; gain = 494.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 783.219 ; gain = 494.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 783.219 ; gain = 494.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (inst/number2_reg[3]) is unused and will be removed from module design_1_pianxuan2_0_0.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   224|
+|3     |LUT1   |    15|
+|4     |LUT2   |   634|
+|5     |LUT3   |     9|
+|6     |LUT4   |    58|
+|7     |LUT5   |   145|
+|8     |LUT6   |   150|
+|9     |FDCE   |     5|
+|10    |FDPE   |     4|
+|11    |FDRE   |   879|
+|12    |FDSE   |    34|
+|13    |LD     |    20|
+|14    |IBUF   |    15|
+|15    |OBUF   |    38|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+-----------------------+------+
+|      |Instance        |Module                 |Cells |
++------+----------------+-----------------------+------+
+|1     |top             |                       |  2231|
+|2     |  design_1_i    |design_1               |  2177|
+|3     |    bijiao_0    |design_1_bijiao_0_0    |    10|
+|4     |      inst      |bijiao                 |    10|
+|5     |    check_g_0   |design_1_check_g_0_0   |     1|
+|6     |    check_r_0   |design_1_check_r_0_0   |     1|
+|7     |    da_0        |design_1_da_0_0        |    14|
+|8     |      inst      |da_10                  |    14|
+|9     |    da_1        |design_1_da_0_1        |    14|
+|10    |      inst      |da                     |    14|
+|11    |    erxuanyi_0  |design_1_erxuanyi_0_0  |    22|
+|12    |      inst      |erxuanyi               |    22|
+|13    |    huofei_0    |design_1_huofei_0_0    |     2|
+|14    |      inst      |huofei_9               |     2|
+|15    |    huofei_1    |design_1_huofei_0_1    |     2|
+|16    |      inst      |huofei                 |     2|
+|17    |    jicun_0     |design_1_jicun_0_0     |    71|
+|18    |      inst      |jicun                  |    71|
+|19    |    jishi_0     |design_1_jishi_0_0     |    86|
+|20    |      inst      |jishi                  |    86|
+|21    |    jishu_0     |design_1_jishu_0_0     |    13|
+|22    |      inst      |jishu                  |    13|
+|23    |    jishum_0    |design_1_jishum_0_0    |     4|
+|24    |      inst      |jishum                 |     4|
+|25    |    led_0       |design_1_led_0_0       |    74|
+|26    |      inst      |led                    |    74|
+|27    |    mima_0      |design_1_mima_0_0      |    20|
+|28    |      inst      |mima                   |    20|
+|29    |    pianxuan1_0 |design_1_pianxuan1_0_0 |    88|
+|30    |      inst      |pianxuan1              |    88|
+|31    |    pianxuan2_0 |design_1_pianxuan2_0_0 |    75|
+|32    |      inst      |pianxuan2              |    75|
+|33    |    xiaodou_0   |design_1_xiaodou_0_0   |   168|
+|34    |      inst      |xiaodou_8              |   168|
+|35    |    xiaodou_1   |design_1_xiaodou_0_1   |   168|
+|36    |      inst      |xiaodou_7              |   168|
+|37    |    xiaodou_2   |design_1_xiaodou_0_2   |   168|
+|38    |      inst      |xiaodou_6              |   168|
+|39    |    xiaodou_3   |design_1_xiaodou_2_0   |   168|
+|40    |      inst      |xiaodou_5              |   168|
+|41    |    xiaodou_4   |design_1_xiaodou_2_1   |   168|
+|42    |      inst      |xiaodou_4              |   168|
+|43    |    xiaodou_5   |design_1_xiaodou_4_0   |   168|
+|44    |      inst      |xiaodou_3              |   168|
+|45    |    xiaodou_6   |design_1_xiaodou_0_3   |   168|
+|46    |      inst      |xiaodou_2              |   168|
+|47    |    xiaodou_7   |design_1_xiaodou_0_4   |   168|
+|48    |      inst      |xiaodou_1              |   168|
+|49    |    xiaodou_8   |design_1_xiaodou_0_5   |   168|
+|50    |      inst      |xiaodou_0              |   168|
+|51    |    xiaodou_9   |design_1_xiaodou_0_6   |   168|
+|52    |      inst      |xiaodou                |   168|
++------+----------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 801.133 ; gain = 177.297
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 801.133 ; gain = 512.516
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 259 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  LD => LDCE: 20 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+142 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:01:09 . Memory (MB): peak = 802.473 ; gain = 527.164
+INFO: [Common 17-1381] The checkpoint 'D:/vivado/yanshiban_xiaodou/yanshiban/yanshiban/yanshiban.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 802.473 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue May 28 20:57:14 2019...

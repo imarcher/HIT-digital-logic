@@ -1,0 +1,61 @@
+module jsq12(clk,Rd,Q
+  
+    );
+    input clk,Rd;
+    output [3:0] Q;
+wire j1,j2,j3,j4,k1,k2,k3,k4;
+
+assign j1=~Q[0];
+assign k1=Q[0];
+assign j2=Q[0];
+assign k2=Q[0];
+assign j3=(~Q[3])&Q[1]&Q[0];
+assign k3=Q[0]&Q[1];
+assign j4=Q[0]&Q[1]&Q[2];
+assign k4=Q[0]&Q[1];
+jkkkkk u1 (j1,k1,clk,Rd,Q[0]);
+jkkkkk u2 (j2,k2,clk,Rd,Q[1]);
+jkkkkk u3 (j3,k3,clk,Rd,Q[2]);
+jkkkkk u4 (j4,k4,clk,Rd,Q[3]);
+endmodule
+
+
+
+module jkkkkk(
+    input J,
+    input K,
+    input clk,
+    input Rd,
+    output reg Q
+    );
+    always @(posedge clk or negedge Rd)
+      if(!Rd) Q <= 1'b0;
+      else 
+        case({J,K})
+          2'b00: Q <= Q;
+          2'b01: Q <= 0;
+          2'b10: Q <= 1;
+          2'b11: Q <= ~Q;
+        endcase
+endmodule
+
+
+
+module jsq12_c();
+reg clk,Rd;
+wire [3:0] Q;
+always
+begin
+	#10 clk = ~clk;
+end
+initial
+begin
+clk=0;
+#10 Rd=0;
+#20 Rd=1;
+end
+jsq12 u1 (clk,Rd,Q);
+endmodule
+
+
+

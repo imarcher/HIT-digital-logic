@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 28 14:36:07 2019
+# Process ID: 10800
+# Current directory: D:/vivado/233/yanshiban/yanshiban
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13176 D:\vivado\233\yanshiban\yanshiban\yanshiban.xpr
+# Log file: D:/vivado/233/yanshiban/yanshiban/vivado.log
+# Journal file: D:/vivado/233/yanshiban/yanshiban\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado/233/yanshiban/yanshiban/yanshiban.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/vivado/233/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/design_1.bd}

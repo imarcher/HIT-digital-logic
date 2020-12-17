@@ -1,0 +1,35 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../zuizhong.srcs/sources_1/new/jicun.v" \
+"../../../../zuizhong.srcs/sources_1/new/erxuanyi.v" \
+"../../../../zuizhong.srcs/sources_1/new/huofei.v" \
+"../../../../zuizhong.srcs/sources_1/new/jishu.v" \
+"../../../../zuizhong.srcs/sources_1/new/da.v" \
+"../../../../zuizhong.srcs/sources_1/new/mima.v" \
+"../../../../zuizhong.srcs/sources_1/new/jishum.v" \
+"../../../../zuizhong.srcs/sources_1/new/jishi.v" \
+"../../../../zuizhong.srcs/sources_1/new/bijiao.v" \
+"../../../../zuizhong.srcs/sources_1/new/check_g.v" \
+"../../../../zuizhong.srcs/sources_1/new/check_r.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_jicun_0_0/sim/design_1_jicun_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_erxuanyi_0_0/sim/design_1_erxuanyi_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_huofei_0_0/sim/design_1_huofei_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_jishu_0_0/sim/design_1_jishu_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_da_0_0/sim/design_1_da_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_huofei_0_1/sim/design_1_huofei_0_1.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_da_0_1/sim/design_1_da_0_1.v" \
+"../../../../../project_14/project_14.srcs/sources_1/bd/design_1/ip/design_1_mima_0_0/sim/design_1_mima_0_0.v" \
+"../../../../../project_14/project_14.srcs/sources_1/bd/design_1/ip/design_1_jishum_0_0/sim/design_1_jishum_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_jishi_0_0/sim/design_1_jishi_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_bijiao_0_0/sim/design_1_bijiao_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_check_g_0_0/sim/design_1_check_g_0_0.v" \
+"../../../../zuizhong.ip_user_files/bd/design_1/ip/design_1_check_r_0_0/sim/design_1_check_r_0_0.v" \
+"../../../../zuizhong.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+"../../../../zuizhong.srcs/sim_1/new/text.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

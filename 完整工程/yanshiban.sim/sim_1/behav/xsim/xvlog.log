@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/jicun.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jicun
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/erxuanyi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module erxuanyi
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/huofei.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module huofei
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/jishu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jishu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/da.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module da
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/mima.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mima
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/jishum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jishum
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/jishi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jishi
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/bijiao.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bijiao
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/check_g.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module check_g
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/new/check_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module check_r
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_jicun_0_0/sim/design_1_jicun_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_jicun_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_erxuanyi_0_0/sim/design_1_erxuanyi_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_erxuanyi_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_huofei_0_0/sim/design_1_huofei_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_huofei_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_jishu_0_0/sim/design_1_jishu_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_jishu_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_da_0_0/sim/design_1_da_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_da_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_huofei_0_1/sim/design_1_huofei_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_huofei_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_da_0_1/sim/design_1_da_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_da_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/project_14/project_14.srcs/sources_1/bd/design_1/ip/design_1_mima_0_0/sim/design_1_mima_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_mima_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/project_14/project_14.srcs/sources_1/bd/design_1/ip/design_1_jishum_0_0/sim/design_1_jishum_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_jishum_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_jishi_0_0/sim/design_1_jishi_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_jishi_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_bijiao_0_0/sim/design_1_bijiao_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_bijiao_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_check_g_0_0/sim/design_1_check_g_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_check_g_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.ip_user_files/bd/design_1/ip/design_1_check_r_0_0/sim/design_1_check_r_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_check_r_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/zuizhong/zuizhong.srcs/sim_1/new/text.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module text

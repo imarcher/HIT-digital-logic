@@ -1,0 +1,111 @@
+assign s=a^b^c1;
+    assign c2=(a^b)&c1|(a&b);
+
+ reg a,b,c1;
+        wire s,c2;
+        
+        sbxlh nmsl(
+        .a(a),
+        .b(b),
+        .c1(c1),
+        .s(s),
+        .c2(c2)
+        );
+        
+        initial
+        begin
+        
+        a=1'b0;
+        b=1'b0;
+        c1=1'b0;
+        end
+      always
+      begin
+        #100 a=1'b0;b=1'b0;c1=1'b0;
+        #100 a=1'b0;b=1'b0;c1=1'b1;
+        #100 a=1'b0;b=1'b1;c1=1'b0;
+        #100 a=1'b0;b=1'b1;c1=1'b1;
+        #100 a=1'b1;b=1'b0;c1=1'b0;
+        #100 a=1'b1;b=1'b0;c1=1'b1;
+        #100 a=1'b1;b=1'b1;c1=1'b0;
+        #100 a=1'b1;b=1'b1;c1=1'b1;
+        end
+
+2
+reg in0,in1,in2,in3;
+    reg s0,s1;
+    wire out;
+    ljxlh cnm(
+    .in0(in0),
+    .in1(in1),
+    .in2(in2),
+    .in3(in3),
+    .s1(s1),
+    .s0(s0),
+    .out(out)
+    );
+    initial
+    begin
+    in0=2'b0;
+    in1=2'b0;
+    in2=2'b0;
+    in3=2'b0;
+    s1=1'b0;s0=1'b0;
+    end
+    always 
+    begin
+    #10 in0=2'b0;in1=2'b0;in2=2'b0;in3=2'b0;
+    #10 in0=2'b1;in1=2'b0;in2=2'b0;in3=2'b0;
+    #10 in0=2'b0;in1=2'b1;in2=2'b0;in3=2'b0;
+    #10 in0=2'b1;in1=2'b1;in2=2'b0;in3=2'b0;
+    #10 in0=2'b0;in1=2'b0;in2=2'b1;in3=2'b0;
+    #10 in0=2'b1;in1=2'b0;in2=2'b1;in3=2'b0;
+    #10 in0=2'b0;in1=2'b1;in2=2'b1;in3=2'b0;
+    #10 in0=2'b1;in1=2'b1;in2=2'b1;in3=2'b0;
+    #10 in0=2'b0;in1=2'b0;in2=2'b0;in3=2'b1;
+    #10 in0=2'b1;in1=2'b0;in2=2'b0;in3=2'b1;
+    #10 in0=2'b0;in1=2'b1;in2=2'b0;in3=2'b1;
+    #10 in0=2'b1;in1=2'b1;in2=2'b0;in3=2'b1;
+    #10 in0=2'b0;in1=2'b0;in2=2'b1;in3=2'b1;
+    #10 in0=2'b1;in1=2'b0;in2=2'b1;in3=2'b1;
+    #10 in0=2'b0;in1=2'b1;in2=2'b1;in3=2'b1;
+    #10 in0=2'b1;in1=2'b1;in2=2'b1;in3=2'b1;
+    end
+    always
+    begin
+    #160 s1=1'b0;s0=1'b0;
+    #160 s1=1'b0;s0=1'b1;
+    #160 s1=1'b1;s0=1'b0;
+    #160 s1=1'b1;s0=1'b1;
+    end
+
+Éè¼Æ
+module ljxlh(
+     in0,
+     in1,
+     in2,
+     in3,
+     s1,
+     s0,
+  out
+    );
+    input in0,in1,in2,in3;
+    input s1,s0;
+    output reg out;
+    always @(*)
+    begin
+        case({s1,s0})
+        2'b00: out=in0;
+        2'b01: out=in1;
+        2'b10: out=in2;
+        default: out=in3;
+        endcase
+    end
+endmodule
+
+
+
+
+
+
+

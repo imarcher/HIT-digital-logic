@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 28 10:34:18 2019
+# Process ID: 14988
+# Current directory: D:/vivado/233/yanshiban/yanshiban
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4012 D:\vivado\233\yanshiban\yanshiban\yanshiban.xpr
+# Log file: D:/vivado/233/yanshiban/yanshiban/vivado.log
+# Journal file: D:/vivado/233/yanshiban/yanshiban\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado/233/yanshiban/yanshiban/yanshiban.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/vivado/233/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/design_1.bd}
+close [ open D:/vivado/233/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/xiaodou.v w ]
+add_files D:/vivado/233/yanshiban/yanshiban/yanshiban.srcs/sources_1/new/xiaodou.v
+update_compile_order -fileset sources_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+open_bd_design {D:/vivado/233/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/design_1.bd}
+set_property location {-2120 -110} [get_bd_ports pw_4]
+open_bd_design {D:/vivado/233/yanshiban/yanshiban/yanshiban.srcs/sources_1/bd/design_1/design_1.bd}
+create_bd_cell -type module -reference xiaodou xiaodou_0
+copy_bd_objs /  [get_bd_cells {xiaodou_0}]
+set_property location {1 -1444 11} [get_bd_cells xiaodou_1]
+copy_bd_objs /  [get_bd_cells {xiaodou_0}]
+set_property location {1 -1546 176} [get_bd_cells xiaodou_2]
+set_property location {2 -1205 27} [get_bd_cells erxuanyi_0]
+delete_bd_objs [get_bd_nets pw_5_1]
+connect_bd_net [get_bd_ports pw_5] [get_bd_pins xiaodou_0/key_in]
+connect_bd_net [get_bd_pins xiaodou_0/key_out] [get_bd_pins erxuanyi_0/pw_5]
+delete_bd_objs [get_bd_nets pw_6_1]
+connect_bd_net [get_bd_ports pw_6] [get_bd_pins xiaodou_1/key_in]
+connect_bd_net [get_bd_pins xiaodou_1/key_out] [get_bd_pins erxuanyi_0/pw_6]
+delete_bd_objs [get_bd_nets pw_7_1]
+connect_bd_net [get_bd_ports pw_7] [get_bd_pins xiaodou_2/key_in]
+connect_bd_net [get_bd_pins xiaodou_2/key_out] [get_bd_pins erxuanyi_0/pw_7]
+copy_bd_objs /  [get_bd_cells {xiaodou_2}]
+copy_bd_objs /  [get_bd_cells {xiaodou_2}]
+delete_bd_objs [get_bd_nets pw_8_1]
+connect_bd_net [get_bd_ports pw_8] [get_bd_pins xiaodou_3/key_in]
+connect_bd_net [get_bd_pins xiaodou_3/key_out] [get_bd_pins erxuanyi_0/pw_8]
+delete_bd_objs [get_bd_nets pw_9_1]
+connect_bd_net [get_bd_ports pw_9] [get_bd_pins xiaodou_4/key_in]
+connect_bd_net [get_bd_pins xiaodou_4/key_out] [get_bd_pins erxuanyi_0/pw_9]
+copy_bd_objs /  [get_bd_cells {xiaodou_4}]
+set_property location {1 -1599 389} [get_bd_cells xiaodou_5]
+delete_bd_objs [get_bd_nets pw_10_1]
+connect_bd_net [get_bd_pins xiaodou_5/key_out] [get_bd_pins erxuanyi_0/pw_10]
+connect_bd_net [get_bd_ports pw_10] [get_bd_pins xiaodou_5/key_in]
+save_bd_design
+connect_bd_net [get_bd_ports clk] [get_bd_pins xiaodou_0/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins xiaodou_1/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins xiaodou_2/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins xiaodou_3/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins xiaodou_4/clk]
+connect_bd_net [get_bd_ports clk] [get_bd_pins xiaodou_5/clk]
+save_bd_design

@@ -1,0 +1,128 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue May 28 21:07:07 2019
+| Host         : LAPTOP-JM8CLPIU running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    60 |
+| Unused register locations in slices containing registers |   170 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             235 |           92 |
+| No           | No                    | Yes                    |               9 |            2 |
+| No           | Yes                   | No                     |             612 |          208 |
+| Yes          | No                    | No                     |              62 |           21 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              24 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+--------------------------------------------+-------------------------------------------------+------------------+----------------+
+|                Clock Signal                |                Enable Signal               |                 Set/Reset Signal                | Slice Load Count | Bel Load Count |
++--------------------------------------------+--------------------------------------------+-------------------------------------------------+------------------+----------------+
+|  design_1_i/pianxuan2_0/inst/jishiclk      |                                            |                                                 |                1 |              2 |
+| ~design_1_i/huofei_1/inst/p_out            |                                            | clear_IBUF                                      |                1 |              2 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/n4[3]_i_1_n_0      |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/n1[3]_i_1_n_0      |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/n3[3]_i_1_n_0      |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/da_1/inst/shuchu0               |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/da_0/inst/shuchu0               |                                                 |                2 |              4 |
+|  design_1_i/jishi_0/inst/jishiclk_reg_n_0  |                                            | design_1_i/jishi_0/inst/count[3]_i_1_n_0        |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/mima_0/inst/n1[3]_i_1_n_0       |                                                 |                1 |              4 |
+|  design_1_i/pianxuan1_0/inst/jishiclk      |                                            |                                                 |                2 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/mima_0/inst/n2[3]_i_1_n_0       |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/mima_0/inst/n3[3]_i_1_n_0       |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/mima_0/inst/n4[3]_i_1_n_0       |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/n2[3]_i_1_n_0      |                                                 |                1 |              4 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/shu33_i_1_n_0      | design_1_i/check_r_0/led_r                      |                3 |              5 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/shu03_i_1_n_0      | design_1_i/check_r_0/led_r                      |                2 |              5 |
+|  clk_IBUF_BUFG                             |                                            | pw_6_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_1_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_3_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_4_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_5_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_10_IBUF                                      |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_2_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_9_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_8_IBUF                                       |                3 |              6 |
+|  clk_IBUF_BUFG                             |                                            | pw_7_IBUF                                       |                3 |              6 |
+|  design_1_i/pianxuan2_0/inst/jishiclk      | design_1_i/pianxuan2_0/inst/num0_1_i_1_n_0 |                                                 |                2 |              7 |
+| ~design_1_i/huofei_0/inst/p_out            |                                            | clear_IBUF                                      |                1 |              7 |
+|  design_1_i/pianxuan1_0/inst/jishiclk      | design_1_i/pianxuan1_0/inst/num0_1_i_1_n_0 |                                                 |                3 |              7 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/shu11_i_1_n_0      | design_1_i/check_r_0/led_r                      |                2 |              7 |
+|  clk_IBUF_BUFG                             | design_1_i/jicun_0/inst/shu21_i_1_n_0      | design_1_i/check_r_0/led_r                      |                2 |              7 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_2/inst/count_low[24]_i_1_n_0 |                2 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_1/inst/count_low[24]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_8/inst/count_low[24]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_5/inst/count_low[24]_i_1_n_0 |                2 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_0/inst/count_low[24]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_7/inst/count_low[24]_i_1_n_0 |                4 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_6/inst/count_low[24]_i_1_n_0 |                3 |              8 |
+|  design_1_i/led_0/inst/jishiclk            | design_1_i/check_r_0/led_r                 |                                                 |                5 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_9/inst/count_low[24]_i_1_n_0 |                4 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_3/inst/count_low[24]_i_1_n_0 |                3 |              8 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_4/inst/count_low[24]_i_1_n_0 |                3 |              8 |
+|  design_1_i/jishi_0/inst/jishiclk_reg_n_0  |                                            |                                                 |                4 |              9 |
+|  design_1_i/erxuanyi_0/inst/m1_reg_i_1_n_0 |                                            |                                                 |                3 |             10 |
+|  design_1_i/erxuanyi_0/inst/n1_reg_i_1_n_0 |                                            |                                                 |                3 |             10 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/pianxuan2_0/inst/clear               |                8 |             32 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/pianxuan1_0/inst/clear               |                8 |             32 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/led_0/inst/clear                     |                8 |             32 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/jishi_0/inst/clear                   |                8 |             32 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_1/inst/count_high            |               12 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_3/inst/count_high            |               12 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_6/inst/count_high            |               11 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_5/inst/count_high            |               11 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_8/inst/count_high            |               11 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_0/inst/count_high            |               13 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_4/inst/count_high            |               11 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_7/inst/count_high            |               12 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_2/inst/count_high            |               11 |             34 |
+|  clk_IBUF_BUFG                             |                                            | design_1_i/xiaodou_9/inst/count_high            |               11 |             34 |
+|  clk_IBUF_BUFG                             |                                            |                                                 |               79 |            200 |
++--------------------------------------------+--------------------------------------------+-------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     2 |
+| 4      |                    12 |
+| 5      |                     2 |
+| 6      |                    10 |
+| 7      |                     5 |
+| 8      |                    11 |
+| 9      |                     1 |
+| 10     |                     2 |
+| 16+    |                    15 |
++--------+-----------------------+
+
+

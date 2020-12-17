@@ -1,0 +1,88 @@
+module jcq(
+     cs,
+     wr,
+     rd,
+    data
+    );
+    input wire cs, wr, rd;
+        inout [3:0] data;
+        reg[3:0] tmp;
+        always @(cs or wr or rd)
+        if(cs == 1)
+        begin
+            if(wr == 1 && rd == 0)
+            begin
+                tmp <= data;
+            end
+        end
+        assign data = (cs == 1 && wr == 0 && rd == 1)? tmp : 4'bzzzz;
+endmodule
+
+
+module test(
+
+    );
+       reg cs = 0, rd = 0, wr = 0;
+       wire [3:0] data;
+       jcq the_circuit(cs, wr, rd, data);
+       initial begin
+          
+          #20 force data=4'b1010;
+          #20 release data;
+          #10 force data=4'b1010;
+          #10 release data;
+          #10 force data=4'b1010;
+          #30 release data;
+          #60 force data=4'b1010;
+          #10 release data;
+       
+       end
+       always
+       begin
+          #20
+             cs <= ~cs;
+          #80
+             cs <= ~cs;
+          #50
+             cs <= ~cs;
+          #30
+             cs <= ~cs;
+       end
+       always
+       begin
+          #50
+             wr <= ~wr;
+          #10
+             wr <= ~wr;
+          #50
+             wr <= ~wr;
+          #10
+             wr <= ~wr;
+          #40
+             wr <= ~wr;
+          #10
+             wr <= ~wr;
+          #10
+             wr <= ~wr;
+       end
+       always
+       begin
+          #10
+             rd <= ~rd;
+          #30
+             rd <= ~rd;
+          #30
+             rd <= ~rd;
+          #30
+             rd <= ~rd;
+          #20
+             rd <= ~rd;
+          #30
+             rd <= ~rd;
+          #30
+             rd <= ~rd;
+       end
+    
+    
+    
+endmodule
